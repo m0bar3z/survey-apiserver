@@ -1,0 +1,25 @@
+{
+    "appPort": 3000,
+    "mongo": {
+        "host": "mongodb://localhost:27017/survey"
+    },
+    "hawkeye": {
+        "host": "http://127.0.0.1",
+        "port": 54540
+    },
+    "redis": {
+        "host": "",
+        "port": 6379
+    },
+    "sms": {
+        "negin": {
+            "user": "",
+            "password": "",
+            "host": ""
+        },
+        "KavenegarApi": {
+            "apikey": "",
+            "sender": ""
+        }
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "appPort": 4000,
+    "mongo": {
+        "host": "mongodb://localhost:27017/survey"
+    },
+    "hawkeye": {
+        "host": "http://127.0.0.1",
+        "port": 54540
+    },
+    "redis": {
+        "host": "",
+        "port": 6379
+    },
+    "sms": {
+        "negin": {
+            "user": "",
+            "password": "",
+            "host": ""
+        },
+        "KavenegarApi": {
+            "apikey": "",
+            "sender": ""
+        }
+    },
+    "test": {
+        "registerUser": {
+            "username": "ali",
+            "password": "ali@123",
+            "name": "ali",
+            "family": "mz",
+            "email": "alimz@gmail.com",
+            "mobile": "09307580344"
+        },
+        "loginUser": {
+            "username": "ali",
+            "password": "ali@123"
+        },
+        "newSurvey": {
+            "name": "passenger2",
+            "title": "نظرسنجی مسافر",
+            "ownerId": "60b63a2c12bc9737d008652f",
+            "questions": [
+                {
+                    "number": 1,
+                    "type": "rating",
+                    "text": "چقد راضی بودید؟",
+                    "answers": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                    ]
+                }
+            ]
+        },
+        "removeSurvey": {
+            "id": "60b640d1a80d603ca5b92069"
+        },
+        "toggleSurvey": {
+            "id": "60b640d1a80d603ca5b92069"
+        },
+        "getSurvey": {},
+        "customerData": {
+            "name": "testtest",
+            "surveyId": "60b78bab73c81f6eaffecf67",
+            "answers": [
+                {
+                    "questionsNO": "1",
+                    "rating": "3"
+                }
+            ]
+        }
+    }
+}
